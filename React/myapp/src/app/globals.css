@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .red {
-  color: red;
+  color: yellow;
   margin-left: 20px;
   font-family: "Times New Roman";
 }
