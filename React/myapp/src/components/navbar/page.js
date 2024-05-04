@@ -4,6 +4,7 @@ import Logo from "./logo";
 
 const CustomNavbar=()=> {
   return (
+    <div className="bg-teal-700">
     <Navbar>
       <NavbarBrand>
         <Logo/>
@@ -27,15 +28,16 @@ const CustomNavbar=()=> {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
+          <Link href="#">Sign Up</Link>
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+            Login
           </Button>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
+    </div>
   );
 }
 export default(CustomNavbar);

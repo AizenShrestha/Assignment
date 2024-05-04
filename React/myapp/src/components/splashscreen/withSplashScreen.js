@@ -1,11 +1,27 @@
 'use client'
 import React, { Component } from 'react';
-import Logo from '../navbar/logo';
+import Mainui from './mainui';
 
 function SplashMessage() {
     return (
         <div>
-            <Logo/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Mainui/>
         </div>
     );
 }
